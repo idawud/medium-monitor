@@ -14,7 +14,7 @@ import (
 )
 
 var (
-	l = log.New(os.Stdout, "server-monitor ", log.LstdFlags)
+	l = log.New(os.Stdout, "medium-monitor ", log.LstdFlags)
 )
 
 func main() {
